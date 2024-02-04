@@ -1,0 +1,55 @@
+header {
+  position: relative;
+}
+
+header .logo {
+  margin-left: 20px;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+header ul.nav {
+  margin-right: 20px;
+  float: right;
+  list-style: none;
+}
+
+header ul.nav li {
+  display: inline;
+  margin-left: 25px;
+  cursor: pointer;
+  transition: opacity 500ms;
+}
+
+header ul.nav li:hover {
+  opacity: 0.5;
+}
+
+header .favorite {
+  float: right;
+  margin-left: 15px;
+  cursor: pointer;
+}
+
+header .favorite:hover {
+  color: #dc3d3d;
+}
+
+header .shop-cart-button {
+  float: right;
+  cursor: pointer;
+}
+
+header .shop-cart-button:hover {
+  color: #dc3d3d;
+}
+
+.counter {
+  float: right;
+  margin-right: 10px;
+}
+
+.counter-favorite {
+  float: right;
+  margin-left: 20px;
+}

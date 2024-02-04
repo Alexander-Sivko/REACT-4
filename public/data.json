@@ -1,0 +1,92 @@
+[
+  {
+    "id":1,
+    "article":"A12345",
+    "name":"Showcase Marсus",
+    "img":"markus-vitrina-reg2w1d-92326635397734.webp",
+    "description":"Опис першого товару",
+    "price":19.99,
+    "category":"Showcases"
+  },
+  {
+    "id":2,
+    "article":"B67890",
+    "name":"Commode Tessa",
+    "img":"komod-tessa-35368959895438.webp",
+    "description":"Опис другого товару",
+    "price":29.99,
+    "category":"Commodes"
+  },
+  {
+    "id":3,
+    "article":"C54321",
+    "name":"Showcase Porto",
+    "img":"porto-vitrina-reg1w2s-41369537725824.webp",
+    "description":"Опис третього товару",
+    "price":39.99,
+    "category":"Showcases"
+  },
+  {
+    "id":4,
+    "article":"D09876",
+    "name":"Sofa Anabel",
+    "img":"anabel-divan-3-79189930245597.webp",
+    "description":"Опис четвертого товару",
+    "price":49.99,
+    "category":"Sofas"
+  },
+  {
+    "id":5,
+    "article":"E65432",
+    "name":"Commode Freedom",
+    "img":"89145772655804.webp",
+    "description":"Опис п'ятого товару",
+    "price":59.99,
+    "category":"Commodes"
+  },
+  {
+    "id":6,
+    "article":"F12345",
+    "name":"Showcase Оrfey",
+    "img":"vitrina-orfey-41355082462949.webp",
+    "description":"Опис шостого товару",
+    "price":69.99,
+    "category":"Showcases"
+  },
+  {
+    "id":7,
+    "article":"G67890",
+    "name":"Sofa Beatrice",
+    "img":"uglovoy-divan-biatris-ugol-a-77481064531538.webp",
+    "description":"Опис сьомого товару",
+    "price":79.99,
+    "category":"Sofas"
+  },
+  {
+    "id":8,
+    "article":"H54321",
+    "name":"Commode Florentsiya",
+    "img":"komod-florentsiya-61094944261842.webp",
+    "description":"Опис восьмого товару",
+    "price":89.99,
+    "category":"Commodes"
+  },
+  {
+    "id":9,
+    "article":"I09876",
+    "name":"Sofa Lukas",
+    "img":"uglovoy-divan-lukas-93096318535959.webp",
+    "description":"Опис дев'ятого товару",
+    "price":99.99,
+    "category":"Sofas"
+  },
+  {
+    "id":10,
+    "article":"J65432",
+    "name":"Sofa Trend",
+    "img":"uglovoy-divan-trend-23637146597344.webp",
+    "description":"Опис десятого товару",
+    "price":109.99,
+    "category":"Sofas"
+  }
+]

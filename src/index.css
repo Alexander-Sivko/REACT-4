@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,400;0,500;0,700;0,800;0,900;1,100;1,200;1,400;1,500;1,700;1,800;1,900&display=swap");
+@import "./components/Button/Button.css";
+@import "./components/Header/Header.css";
+@import "./components/Page/ItemPage.css";
+@import "./components/Main/Presentation.css";
+@import "./components/Footer/Footer.css";
+@import "./components/Modal/Modal.css";
+@import "./components/Categories/Categories.css";
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #fff;
+  color: #222;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+}
+
+a {
+  color: #222;
+  text-decoration: none;
+}
+
+.wrapper {
+  width: 100%;
+  margin: 50px auto;
+}
+
+main {
+  width: 100%;
+  /* margin: 0 20px; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+main .item {
+  width: 30%;
+  margin-bottom: 50px;
+  background: #f5f5f5;
+  overflow: hidden;
+  position: relative;
+  padding-bottom: 20px;
+}
+
+main .add-to-favorite {
+  position: relative;
+  float: right;
+  top: 5px;
+  right: 5px;
+  color: grey;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  line-height: 35px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: transform 500ms ease;
+}
+
+main .add-to-favorite:hover {
+  transform: scale(1.5);
+}
+
+main .item img {
+  width: 100%;
+  height: 250px;
+  border-radius: 10px 10px 0 0;
+  transition: transform 500ms ease;
+  cursor: pointer;
+}
+
+main .item img:hover {
+  transform: scale(1.05);
+}
+
+main p {
+  margin: 20px 20px;
+  color: #333;
+}
+
+main h2 {
+  margin: 20px 20px;
+  color: #333;
+  display: flex;
+  justify-content: center;
+}
+
+main b {
+  margin: 10px 20px;
+  color: #5fa36a;
+}
